@@ -1,0 +1,76 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: coral;
+    color: brown;
+    text-align: center;
+    padding: 1px;
+}
+
+.footer { 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+
+:root {
+    --main-color: #db5b34;
+    --font-size-large: 18px;
+    text-align: center;
+    padding: 75px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--main-color);
+    font-size: var(--font-size-large);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.flex-item {
+    background-color: var(--secondary-color);
+    padding: 15px;
+    width: 100px;
+   color: brown;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+    margin-top: 20px;
+}
+
+.grid-item {
+    background-color: rgb(240, 128, 133);
+    padding: 15px;
+    text-align: center;
+    color: black;
+}
+
+.relative-box {
+    position: relative;
+    background-color: blue;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: black;
+    color: burlywood;
+    padding: 10px;
+}
